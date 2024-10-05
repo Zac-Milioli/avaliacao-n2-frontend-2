@@ -5,10 +5,13 @@ const Login = () => {
     const navigate = useNavigate();
 
     return (
-        <div style={{ textAlign: 'center', marginTop: '20%' }}>
-            <input type="text" placeholder="Nome" /><br />
-            <input type="password" placeholder="Senha" /><br />
-            <button onClick={() => navigate('/about')}>Fazer Login</button>
+        <div className='gradientBG'>
+            <div className='loginForm'>
+                <h1>Login</h1><br />
+                <input type="text" placeholder="Nome" className='textInput'/><br /><br />
+                <input type="password" placeholder="Senha" className='textInput'/><br /><br />
+                <button onClick={() => navigate('/about')}>Entrar</button>
+            </div>
         </div>
     );
 };

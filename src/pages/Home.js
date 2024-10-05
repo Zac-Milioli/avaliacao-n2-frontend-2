@@ -5,9 +5,9 @@ const Home = () => {
     const navigate = useNavigate();
 
     return (
-        <div style={{ textAlign: 'center', marginTop: '20%' }}>
+        <div className='gradientBG'>
             <h1 className="fade-in">Bem-vindo!</h1>
-            <button onClick={() => navigate('/login')}>Login</button>
+            <button onClick={() => navigate('/login')}><strong>Login</strong></button>
         </div>
     );
 };
