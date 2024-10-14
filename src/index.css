@@ -3,7 +3,7 @@ body {
   background-color: #000000;
   margin: 0;
   padding: 0;
-  color: #30CF68;
+  color: white;
 }
 
 .gradientBG {
@@ -22,12 +22,52 @@ body {
   border-radius: 30px;
 }
 
-h1 {
-  font-size: 70px;
-  color: #cf3097;
+.wikiPage {
+  padding: 50px;
+  margin: 50px
 }
 
-header, footer {
+.wikiTextCard {
+  border-radius: 15px;
+  background-color: #2D0029;
+  padding: 15px;
+}
+
+header {
+  color: #cf3097;
+  background-color:#2D0029;
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+p {
+  text-align: justify;
+}
+
+footer {
+  color: #cf3097;
+  background-color:#2D0029;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 1000; 
+}
+
+h1 {
+  font-size: 70px;
   color: #cf3097;
 }
 
