@@ -10,3 +10,7 @@ Digite, em sequência, os comandos
 npm install
 npm start
 ```
+
+## Login de Administrador
+
+Para fazer login no sistema, basta inserir como usuário "Admin" e como senha "123".

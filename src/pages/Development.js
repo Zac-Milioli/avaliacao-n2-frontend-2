@@ -16,7 +16,8 @@ const Development = () => (
                     O primeiro passo foi desenvolver o design de todas as páginas. Comecei pela página de boas-vindas, que é a primeira interação do usuário com o site. Esta página foi projetada para ser simples e acolhedora, com uma animação de fade-in para o título de boas-vindas e um botão de login.
                 </p>
                 <p>
-                    Em seguida, desenvolvi a página de login, que inclui campos de entrada para o nome e a senha do usuário, além de um botão para fazer login. A lógica para redirecionar o usuário para a página "Sobre o Zac" após o login foi implementada posteriormente.
+                    Em seguida, desenvolvi a página de login, que inclui campos de entrada para o nome e a senha do usuário, além de um botão para fazer login. A lógica para redirecionar o usuário para a página "Sobre o Zac" após o login foi implementada posteriormente. Seu desenvolvimento foi a parte 
+                    mais complexa, pois as funções vistas em aula tornavam os códigos muito extensos e propensos à erros dada a pouca experiência com React do desenvolvedor. Após um pouco de pesquisa, alternativas mais fáceis foram encontradas e implementadas no projeto
                 </p>
                 <p>
                     Após a página de login, criei a página "Sobre o Zac", que inclui um cabeçalho e um rodapé fixos, além de links de navegação para as outras páginas. Esta página foi preenchida com a história acadêmica e profissional resumida do Zac.
